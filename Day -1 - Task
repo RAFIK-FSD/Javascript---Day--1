@@ -1,0 +1,63 @@
+Day - 1 - Task:
+
+1. Write a blog on Difference between HTTP1.1 vs HTTP2?
+
+HTTP/1.1:
+   * This HTTP method is currently in common use.
+   * HTTP/1.1 works on the textual format. so less efficiently parsed and more errors.
+   * There is head of line breaking that blocks all the requests behind it until it does't get its all the resources.
+   * HTTP/1.1 uses request resource inlining for getting multiple pages. 
+   * HTTP/1.1 compress the data itself. and its compression speed less compare to HTTP/2.
+   * safety is less compared to HTTP/2
+   
+HTTP/2:
+   * HTTP/2 works on the binory protocal. binary protocols consumed less band width so more efficiently and less error.
+   * HTTP/2 is multiplexed so one TCP connection is required for multiple requests. 
+   * HTTP/2 uses PUSH frame by server that collect all the multiple pages.
+   * HTTP/2 uses HPACK for compressing the data. so its compression speed is high. 
+   * increasing user and application security.
+   
+   -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
+   2. Write a blog about objects and its internal representation in Javascript?
+   
+      Objects are different then primitive datatypes(number, string, boolean). primitive datatypes contain one value but object can hold many values in form of
+      keys: value pair. these keys can be variable or functions and are called properties or methods.
+      
+      Every objects have some property with some value. these value can accessed by these properties.
+      
+      In javascript name:value pairs called properties. (key - property; value - property value)
+      
+      var myBike = {Make:"Bajaj",colour:"Black",Model:2013}
+      
+      Accessing object properties in two ways:
+      
+      objectName.propertyName (or) objectName["propertyName"]
+      ex: myBike.Make (or) myBike["Make"]
+      
+      Object methods:
+      const person = {
+      firstName = "mohamed"
+      lastName = "rafik"
+      age = "28"
+      fullName : function() {
+      return this.firstName + " " + this.lastName
+      }
+      }
+      
+      this.firstName means the firstName property of person
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
