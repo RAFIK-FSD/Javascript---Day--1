@@ -47,6 +47,10 @@ HTTP/2:
       
       this.firstName means the firstName property of person
       
+      Accessing object methods:
+      objectName.methodName()
+      Ex: Name = person.fullName
+      
       
       
       
